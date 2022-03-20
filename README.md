@@ -25,3 +25,4 @@ $ curl --location --request GET 'http://localhost:8000/anything'
 
 > Check the headers to confirm the plugin working
 
+![Alt text](./images/Plugin_Header_Test.png?raw=true "Plugin Test")
