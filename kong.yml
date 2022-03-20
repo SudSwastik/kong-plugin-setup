@@ -1,0 +1,13 @@
+_format_version: "2.1"
+
+services:
+  - name: httpbin-service
+    url: http://httpbin.org
+    routes:
+      - name: httpbin-route
+        paths:
+          - /anything
+    plugins:
+      - name: go-setheader
+        config:
+          message: hey
