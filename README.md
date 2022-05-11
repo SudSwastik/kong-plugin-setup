@@ -67,6 +67,6 @@ $ kubectl apply -f ./resources/echo-ingress.yml
 > Test the ingress path
 ```
 $ curl -i localhost:80/foo
-``
+```
 
 > A successful header with the name "go-config-message" means plugin is applied succesfully
