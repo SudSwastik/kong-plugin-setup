@@ -18,11 +18,12 @@ func New() interface{} {
 func (config Config) Access(kong *pdk.PDK) {
 
 	message := config.Message
+
 	if message == "" {
 		message = "hello"
 	}
 	kong.Response.SetHeader("go-config-message", fmt.Sprintf("%s", message))
-	
+
 }
 
 func main() {

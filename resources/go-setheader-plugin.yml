@@ -1,0 +1,7 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: go-setheader-plugin
+config:
+  message: hey 
+plugin: go-setheader

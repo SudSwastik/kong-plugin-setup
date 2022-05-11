@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   kong:
-    image: kong-custom-plugin
+    image: sudswastik/kong-custom-plugin
     volumes:
       - ./kong.yml:/usr/local/kong/declarative/kong.yml
     environment:
